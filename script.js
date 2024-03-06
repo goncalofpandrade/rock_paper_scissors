@@ -83,7 +83,8 @@ function playRound(playerSelection, computerSelection) {
         }
         //if the computer random choice equal value to "scissors"
         else if(computerSelection === "scissors") {
-            
+            //player and computer draw "scissors" do not beat "scissors"
+            return "You both draw! " + playerSelection + " " + "do not beat " + computerSelection + ".";
         } 
     }
 }
