@@ -30,5 +30,8 @@ let computerSelection = getComputerChoice();
 
 //here is where the rock, paper and scissors game starts to play 
 function playRound(playerSelection, computerSelection) {
+    //if the user chosen input equal value to "rock"
+    if(playerSelection === "rock") {
 
+    } 
 }
