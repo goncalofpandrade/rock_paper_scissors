@@ -58,7 +58,7 @@ function playRound(playerSelection, computerSelection) {
             return "You win! " + playerSelection + " " + "beats " + computerSelection + ".";
         }
         //if the computer random choice equal value to "scissors"
-        if(computerSelection === "scissors") {
+        else if(computerSelection === "scissors") {
             //player is the loser scissors beats paper
             return "You lose! " + computerSelection + " " + "beats " + playerSelection + ".";
         }
