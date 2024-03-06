@@ -27,3 +27,8 @@ getComputerChoice();
 
 //assign a new variable with the getComputerChoice() function
 let computerSelection = getComputerChoice();
+
+//here is where the rock, paper and scissors game starts to play 
+function playRound(playerSelection, computerSelection) {
+
+}
