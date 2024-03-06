@@ -40,7 +40,8 @@ function playRound(playerSelection, computerSelection) {
         } 
         //if the computer random choice equal value to "paper"
         if(computerSelection === "paper") {
-
+            //player is the loser "paper" beats "rock"
+            return "You lose! " + computerSelection + " " + "beats " + playerSelection + ".";
         }
     } 
 }
