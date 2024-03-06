@@ -15,4 +15,9 @@ function getComputerChoice() {
         let secondRandomChoice = "paper";
         return secondRandomChoice;
     }
+    //If the random number equal value to 2 return "scissors"
+    else if(randomComputerSelection === 2) {
+        let thirdRandomChoice = "scissors";
+        return thirdRandomChoice;
+    }
 }
