@@ -1,7 +1,7 @@
 //user inputs a string -> rock, paper or scissors to lower case
 let playerSelection = prompt("Choose one rock, paper or scissors: ", "").toLowerCase();
 
-
+//computer gets 1 of 3 random choices for the rock, paper and scissors game  
 function getComputerChoice() {
     //computer selects 3 random numbers
     let randomComputerSelection = Math.floor(Math.random() * 3);
