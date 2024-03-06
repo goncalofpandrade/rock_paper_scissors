@@ -24,3 +24,6 @@ function getComputerChoice() {
 
 //call getComputerChoice function
 getComputerChoice();
+
+//assign a new variable with the getComputerChoice() function
+let computerSelection = getComputerChoice();
