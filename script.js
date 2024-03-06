@@ -70,6 +70,6 @@ function playRound(playerSelection, computerSelection) {
     }
     //if the user chosen input equal value to "scissors"
     else if(playerSelection === "scissors") {
-
+        //do other if
     }
 }
