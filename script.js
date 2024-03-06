@@ -21,3 +21,6 @@ function getComputerChoice() {
         return thirdRandomChoice;
     }
 }
+
+//call getComputerChoice function
+getComputerChoice();
