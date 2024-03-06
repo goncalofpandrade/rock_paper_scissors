@@ -62,5 +62,9 @@ function playRound(playerSelection, computerSelection) {
             //player is the loser scissors beats paper
             return "You lose! " + computerSelection + " " + "beats " + playerSelection + ".";
         }
+        //if the computer random choice equal value to "paper"
+        if(computerSelection === "paper") {
+
+        }
     }
 }
