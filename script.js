@@ -88,3 +88,6 @@ function playRound(playerSelection, computerSelection) {
         } 
     }
 }
+
+//call playRound() function with 2 parameters playerSelection and computerSelection
+playRound(playerSelection, computerSelection);
