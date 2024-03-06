@@ -10,4 +10,9 @@ function getComputerChoice() {
         let firstRandomChoice = "rock";
         return firstRandomChoice;
     }
+    //If the random number equal value to 1 return "paper"
+    else if(randomComputerSelection === 1) {
+        let secondRandomChoice = "paper";
+        return secondRandomChoice;
+    }
 }
