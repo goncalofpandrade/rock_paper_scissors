@@ -51,6 +51,6 @@ function playRound(playerSelection, computerSelection) {
     } 
     //if the user chosen input equal value to "paper"
     else if(playerSelection === "paper") {
-        
+        //do other if
     }
 }
