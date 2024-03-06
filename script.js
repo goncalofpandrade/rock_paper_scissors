@@ -32,6 +32,10 @@ let computerSelection = getComputerChoice();
 function playRound(playerSelection, computerSelection) {
     //if the user chosen input equal value to "rock"
     if(playerSelection === "rock") {
+        //do other if
+        //if the computer random choice equal value to "scissors"
+        if(computerSelection === "scissors") {
 
+        } 
     } 
 }
