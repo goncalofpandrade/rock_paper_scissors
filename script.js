@@ -49,4 +49,8 @@ function playRound(playerSelection, computerSelection) {
             return "You both draw! " + playerSelection + " " + "does not beat " + computerSelection + ".";
         }
     } 
+    //if the user chosen input equal value to "paper"
+    else if(playerSelection === "paper") {
+        
+    }
 }
