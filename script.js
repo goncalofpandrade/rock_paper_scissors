@@ -39,7 +39,7 @@ function playRound(playerSelection, computerSelection) {
             return "You win! " + playerSelection + " " + "beats " + computerSelection + ".";
         } 
         //if the computer random choice equal value to "paper"
-        if(computerSelection === "paper") {
+        else if(computerSelection === "paper") {
             //player is the loser "paper" beats "rock"
             return "You lose! " + computerSelection + " " + "beats " + playerSelection + ".";
         }
@@ -73,7 +73,7 @@ function playRound(playerSelection, computerSelection) {
         //do other if
         //if the computer random choice equal value to "paper"
         if(computerSelection === "paper") {
-            
+
         }
     }
 }
