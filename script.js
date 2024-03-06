@@ -5,4 +5,9 @@ let playerSelection = prompt("Choose one rock, paper or scissors: ", "").toLower
 function getComputerChoice() {
     //computer selects 3 random numbers
     let randomComputerSelection = Math.floor(Math.random() * 3);
+    //If the random number equal value to 0 return "rock"
+    if(randomComputerSelection === 0) {
+        let firstRandomChoice = "rock";
+        return firstRandomChoice;
+    }
 }
